@@ -4,6 +4,9 @@ This repository will give us some tools for different type of handlers.
 In truth, it serves me to practice on the java language and Spring-boot 
 afterwards.
 
+This Repository was inspired by my previous work in JAVASCRIPT language, 
+other repository presents in my computer, workout on eBooks and others.
+
 ## SIREN / SIRET validation
 
 Inside the package handlers.entreprise, we have class Administration. 
