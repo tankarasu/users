@@ -1,6 +1,6 @@
 package com.example.handlers.devises;
 
-import org.junit.Rule;
+import com.example.handlers.ressources.ValidDeviseList;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
@@ -38,5 +38,5 @@ class DeviseHandlerTest {
 
     }
 
-    List<String> deviseList = List.of("AFG", "ZAF", "ALA", "AND", "AGO", "AIA");
+    List<String> deviseList = ValidDeviseList.fetchDeviseList();
 }

@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Administration {
+    + Boolean isSirenOrSiretValid ( String )
+    ..
+    - void checkFormat ( String, String[ ], int[ ] )
+    - void notNumericStringError ( )
+    - Boolean luhnAlgorithm ( int[], int )
+}
+
+@enduml
