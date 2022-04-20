@@ -32,7 +32,6 @@ class AdministrationTest {
     void whenSirenOrSiretIsInvalid(String args) {
         Administration handler = new Administration();
 
-
         IllegalArgumentException exception = assertThrows(
                 IllegalArgumentException.class,
                 () -> handler.isSirenOrSiretValid(args)
